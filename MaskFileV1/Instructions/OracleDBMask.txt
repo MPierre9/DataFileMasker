@@ -1,0 +1,10 @@
+Oracle Data Base Table File Mask 
+
+Instructions: 
+
+1. Insert UserName, Password, Host, Port, and Service name in the appropriate text fields OR use this programs dbConnect config file
+   NOTE: The dbConnect.ini has a separate instructions on the appropriate format.
+
+2. Select mask
+   NOTE: Click use config file to load the database connect credentials into the field without having 
+   	     to type

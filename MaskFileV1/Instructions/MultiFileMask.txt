@@ -1,0 +1,7 @@
+Multi File Mask: 
+
+Instructions: 
+
+1.Use search to select a directory of files to mask or input the absolute path into the search bar 
+
+2.Click Mask

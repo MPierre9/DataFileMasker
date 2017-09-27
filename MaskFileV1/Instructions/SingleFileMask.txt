@@ -1,0 +1,7 @@
+Single File Mask: 
+
+Instructions: 
+
+1.Use search to select a single file or type the path into the search bar 
+
+2.Click Mask

@@ -1,0 +1,11 @@
+Csv File Mask 
+
+Instructions:
+
+1. Select a CSV file with File metadata to mask 
+   Notes: Currently imported CSV is a comma delimited file with attributes as follows: 
+
+	File Name, File Type, File Size 
+
+	
+2. After selecting the CSV file click Mask	

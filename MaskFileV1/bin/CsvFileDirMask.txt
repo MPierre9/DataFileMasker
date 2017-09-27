@@ -1,0 +1,10 @@
+Csv File Mask (Option: Directory) 
+
+Instructions: 
+
+1. Select CSV file that uses a file path to a image
+   Note: Current format for CSV file is 
+
+	DRIVER_NAME, DLNUMBER, DRIVER_ADDRESS, MEDICAL_REVIEW_DIR
+
+2. After selecting the CSV file click Mask
