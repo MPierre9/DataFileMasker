@@ -71,9 +71,9 @@ import com.opencsv.CSVReader;
  */
 public class Mask
 {	
-	private static File file2 ; //The main file to be masked (used in the singular file masking method)
+    private static File file2 ; //The main file to be masked (used in the singular file masking method)
     private static final int ONE_MB =  1048576; //The size of one megabyte in bytes
-	private static File outfile; //The masked file to be produced when the masking process is done
+    private static File outfile; //The masked file to be produced when the masking process is done
     private static int mbCount = 0; //How many megabytes the masked file needs
     private static int kbCount = 0; //How many kilobytes the masked file needs 
     private static int bCount = 0 ; //How many bytes the masked file needs
