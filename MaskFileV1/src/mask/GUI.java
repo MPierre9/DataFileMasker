@@ -100,7 +100,7 @@ public class GUI implements Runnable
 	
 	public GUI() 
 	{
-	//	initialize();
+      initialize();
 	}
 	/**
 	 * Initialize the contents of the frame. 
@@ -110,7 +110,7 @@ public class GUI implements Runnable
 	{	
 		ButtonGroup group = new ButtonGroup();
 		frmDataFileMasker = new JFrame();
-		frmDataFileMasker.setTitle("Data File Masker V2 - Ministry of Transportation");
+		frmDataFileMasker.setTitle("Data File Masker V2");
 		frmDataFileMasker.setBounds(100, 100, 790, 600);
 		frmDataFileMasker.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmDataFileMasker.getContentPane().setLayout(null);
@@ -225,11 +225,6 @@ public class GUI implements Runnable
 		JLabel lblMaskingOptions = new JLabel("Masking Options:");
 		lblMaskingOptions.setBounds(65, 268, 121, 31);
 		frmDataFileMasker.getContentPane().add(lblMaskingOptions);
-	    
-	    JLabel lblNewLabel_1 = new JLabel("");
-	    lblNewLabel_1.setIcon(new ImageIcon(GUI.class.getResource("/mask/rsz_mto (1).png")));
-	    lblNewLabel_1.setBounds(518, 0, 256, 100);
-	    frmDataFileMasker.getContentPane().add(lblNewLabel_1);
 	    
 	    JLabel lblNewLabel = new JLabel("Data File Masker V2");
 	    lblNewLabel.setFont(new Font("Segoe UI Light", Font.PLAIN, 20));
@@ -431,11 +426,12 @@ public class GUI implements Runnable
 	    });
 	    chckbxUseConfigFile.setBounds(201, 272, 109, 23);
 	    frmDataFileMasker.getContentPane().add(chckbxUseConfigFile);
-	    
 	    JLabel lblBackground = new JLabel("background");
 	    lblBackground.setIcon(new ImageIcon(GUI.class.getResource("/mask/white background.jpg")));
 	    lblBackground.setBounds(0, 0, 774, 562);
 	    frmDataFileMasker.getContentPane().add(lblBackground);
+	    
+	   
 	    
 	   
 	   
