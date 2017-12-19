@@ -69,6 +69,8 @@ public class GUI implements Runnable
 	public JCheckBox chckbxAggressiveMatch;
 	OracleCon oc;
 	JCheckBox chckbxUseConfigFile;
+	private JLabel lblDfmlogo;
+	private JLabel lblMask;
 	/**
 	 * Launch the application.
 	 */
@@ -424,12 +426,24 @@ public class GUI implements Runnable
 	    			   
 	    	}
 	    });
+	    lblMask = new JLabel("");
+	    lblMask.setIcon(new ImageIcon(GUI.class.getResource("/mask/rsz_mask.png")));
+	    lblMask.setBounds(627, 36, 245, 31);
+	    frmDataFileMasker.getContentPane().add(lblMask);
+	    lblDfmlogo = new JLabel("");
+	    lblDfmlogo.setIcon(new ImageIcon(GUI.class.getResource("/mask/rsz_document-file-icon.png")));
+	    lblDfmlogo.setBounds(609, 0, 165, 110);
+	    frmDataFileMasker.getContentPane().add(lblDfmlogo);
 	    chckbxUseConfigFile.setBounds(201, 272, 109, 23);
 	    frmDataFileMasker.getContentPane().add(chckbxUseConfigFile);
 	    JLabel lblBackground = new JLabel("background");
 	    lblBackground.setIcon(new ImageIcon(GUI.class.getResource("/mask/white background.jpg")));
 	    lblBackground.setBounds(0, 0, 774, 562);
 	    frmDataFileMasker.getContentPane().add(lblBackground);
+	    
+	 
+	    
+	   
 	    
 	   
 	    
