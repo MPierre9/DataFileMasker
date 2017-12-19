@@ -1,6 +1,8 @@
 # DataFileMasker
 A Java application designed to mask Oracle Database Files. Developed and maintained by Michael Pierre.
 
+![DataFileMaskerPreview](https://i.imgur.com/LfWzv93.jpg)
+
 **Summary**: The Data File Masker (DFM) is a program that masks data files of any type (jpg, pdf, txt, etc.) to the exact same size, name, and type. The primary purpose of this program is to mask data files so consumer privacy is protected when working with the data. There are currently six options to mask files: 
 1.	Single File Mask:
 2.	Directory of Files Mask:
