@@ -1,5 +1,5 @@
 # DataFileMasker
-A Java application designed to mask Oracle Database Files and create sample production data. . Developed and maintained by Michael Pierre.
+A Java application designed to mask Oracle database files and create sample production data. . Developed and maintained by Michael Pierre.
 
 ![DataFileMaskerPreview](https://i.imgur.com/LfWzv93.jpg)
 
